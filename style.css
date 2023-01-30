@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.navbar{
+    background-color: #5AFF5D;
+    padding: 8px 180px;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(10, 61, 145)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+.logo{
+    font-family: 'Quicksand', sans-serif;
+    color: #0A3D91;
+    color: rgb(10, 61, 145);
+}
+
+.nav-link{
+    color: #0A3D91;
+}
+
+.btn-perso{
+    color: #0A3D91;
+    background-color: #0A3D91;
+    border-radius: 8px;
+    color: white;
+}
+
+.btn-perso a{
+    color: white;
+}
+
+.banner{
+    padding: 16px 180px;
+    background-color: #5AFF5D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contair{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chamada{
+    max-width: 421px;
+    color: white;
+}
+
+.img-banner{
+    margin-left: 40px;
+}
+
+.uil-android,
+.uil-apple{
+    font-size: 20px;
+    margin-left: 8px;
+    border: 1px solid white;
+    padding: 0px 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color: #0A3D91;
+}
+
+.uil-android:hover,
+.uil-apple:hover{
+    background-color: #5AFF5D;
+    color: #0A3D91;
+}
+
+.caixa{
+    padding: 60px 180px;
+}
+
+.img-fluid{
+    border-radius: 8px;
+}
