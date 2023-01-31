@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
 .navbar{
-    background-color: #5AFF5D;
+    background-color: #5aff60;
     padding: 8px 180px;
 }
 
@@ -34,7 +34,7 @@
 
 .banner{
     padding: 16px 180px;
-    background-color: #5AFF5D;
+    background-color: #5aff60;
     display: flex;
     justify-content: space-between;
 }
@@ -67,7 +67,7 @@
 
 .uil-android:hover,
 .uil-apple:hover{
-    background-color: #5AFF5D;
+    background-color: #5aff60;
     color: #0A3D91;
 }
 
