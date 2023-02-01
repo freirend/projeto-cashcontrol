@@ -18,7 +18,9 @@
 }
 
 .nav-link{
-    color: #0A3D91;
+    color: white;
+    margin-left: 8px;
+    font-weight: 600;
 }
 
 .btn-perso{
@@ -30,6 +32,15 @@
 
 .btn-perso a{
     color: white;
+}
+
+.btn-perso:hover{
+    background-color: white;
+    color: #0A3D91;
+}
+
+.btn-perso a:hover{
+    color: #0A3D91;
 }
 
 .banner{
@@ -67,7 +78,7 @@
 
 .uil-android:hover,
 .uil-apple:hover{
-    background-color: #5aff60;
+    background-color: white;
     color: #0A3D91;
 }
 
@@ -76,5 +87,33 @@
 }
 
 .img-fluid{
-    border-radius: 8px;
+    border-radius: 30px;
+}
+
+.cartao-mobile{
+    display: none;
+}
+
+footer{
+    display: flex;
+    background-color: #5aff60;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ifoot{
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.redes-link{
+    text-decoration: none;
+    color: white;
+}
+
+.redes-link hover:{
+    color: #0A3D91;
 }

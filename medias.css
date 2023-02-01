@@ -40,6 +40,19 @@
     }
 
     .caixa{
-        padding: 60px 20px;
+        padding: 30px 20px;
+    }
+
+    .box-beneficios{
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .cartao-mobile{
+        display: block;
+    }
+
+    .cartao-desktop{
+        display: none;
     }
 }
