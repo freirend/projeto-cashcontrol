@@ -27,6 +27,12 @@
         justify-content: center;
         align-items: center;
     }
+
+    .btn-resp{
+        width: 70px;
+        text-align: center;
+        margin-left: 0;
+    }
     
 }
 
