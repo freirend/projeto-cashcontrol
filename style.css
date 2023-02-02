@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
+
+
 .navbar{
     background-color: #5aff60;
     padding: 8px 180px;
@@ -64,6 +66,18 @@
     color: white;
 }
 
+.chamada h1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+}
+
 .img-banner{
     margin-left: 40px;
 }
@@ -98,6 +112,10 @@
     display: none;
 }
 
+.box-beneficios{
+    max-width: 350px;
+}
+
 footer{
     display: flex;
     background-color: #5aff60;
@@ -118,6 +136,6 @@ footer{
     color: white;
 }
 
-.redes-link hover:{
+.redes-link:hover{
     color: #0A3D91;
 }
