@@ -23,6 +23,7 @@
     color: white;
     margin-left: 8px;
     font-weight: 600;
+    transition: 400ms;
 }
 
 .btn-perso{
@@ -30,10 +31,25 @@
     background-color: #0A3D91;
     border-radius: 8px;
     color: white;
+    transition: 400ms;
 }
 
 .btn-perso a{
     color: white;
+    transition: 400ms;
+}
+
+.perso-dois{
+    color: #0A3D91;
+    background-color: #0A3D91;
+    border-radius: 8px;
+    color: white;
+    transition: 400ms;
+}
+
+.perso-dois:hover{
+    background-color: #d9d9d9;
+    color: #0A3D91;
 }
 
 .btn-resp{
@@ -92,6 +108,7 @@ h3{
     border-radius: 8px;
     color: whitesmoke;
     background-color: #0A3D91;
+    transition: 400ms;
 }
 
 .uil-android:hover,
@@ -102,6 +119,10 @@ h3{
 
 .caixa{
     padding: 60px 180px;
+}
+
+.ajuste-vantagens{
+    margin-left: 50px;
 }
 
 .img-fluid{
